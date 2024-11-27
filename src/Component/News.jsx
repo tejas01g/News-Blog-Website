@@ -50,21 +50,55 @@ const News = () => {
         </div>
         <div className="news-section">
           <div className="headline">
-            <img src={techImg} alt="Headline Image" />
-            <h2 className="headline-titile">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, fugiat?
+           <img src={techImg} alt="Headline Image" />
+            {/* <h2 className="headline-title">
+              Lorem ipsum dolor sit amet
               <i className="fa-regular fa-bookmark bookmark"></i>
-            </h2>
+            </h2> */}
           </div>
           <div className="news-grid">
             <div className="news-grid-item">
-              {/* <img src={techImg} alt="News Image" />
+              <img src={techImg} alt="News Image" />
+              <h3>Lorem ipsum dolor sit amet.
+              <i className="fa-regular fa-bookmark bookmark"></i>
+              </h3>
+            </div>
+
+            <div className="news-grid-item">
+              <img src={SportsImg} alt="News Image" />
+              <h3>Lorem ipsum dolor sit amet.
+              <i className="fa-regular fa-bookmark bookmark"></i>
+              </h3>
+            </div>
+
+            <div className="news-grid-item">
+              <img src={scienceImg} alt="News Image" />
+              <h3>Lorem ipsum dolor sit amet.
+              <i className="fa-regular fa-bookmark bookmark"></i>
+              </h3>
+            </div>
+
+            <div className="news-grid-item">
+              <img src={worldImg} alt="News Image" />
+              <h3>Lorem ipsum dolor sit amet.
+              <i className="fa-regular fa-bookmark bookmark"></i>
+              </h3>
+            </div>
+
+            <div className="news-grid-item">
+              {/* <img src={healthImg} alt="News Image" />
               <h3>Lorem ipsum dolor sit amet.
               <i className="fa-regular fa-bookmark bookmark"></i>
               </h3> */}
             </div>
 
-           ?
+            <div className="news-grid-item">
+              {/* <img src={nationImg} alt="News Image" />
+              <h3>Lorem ipsum dolor sit amet.
+              <i className="fa-regular fa-bookmark bookmark"></i>
+              </h3> */}
+            </div>
+
           </div>
         </div>
         <div className="my-blogs">My Blogs</div>
